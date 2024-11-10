@@ -59,12 +59,20 @@ p{
 }
 
 .button1{
-    padding: 0.9vh 1.3vh 0.9vh 1.3vh;
+    padding: 1vh 1.8vh 1vh 1.8vh;
     margin: 2.5vh 0 2.9vh 0;
     font-family: rohanFont3;
     font-size: 0.9vw;
     border-radius: 0.8vh;
     border: none;
+    cursor: pointer;
+}
+
+.button1:hover {
+    background-color: #ffffff;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
 }
 
 .button2{
@@ -78,7 +86,7 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 0.6px;
+    gap: 1.9px;
 }
 
 .button2:hover{
@@ -97,8 +105,6 @@ p{
 #newOne:hover{
     color: #e61818;
     cursor: pointer;
-    transform: scale(1.3);
-    transition: color 0.3s ease, transform 0.3s ease;
 }
 
 .twoin1{
@@ -171,11 +177,18 @@ i{
     transition: color 0.3s ease;
 }
 
-i:hover{
+#search:hover{
     color: #e61818;
     cursor: pointer;
     transform: scale(1.3);
-    transition: color 0.3s ease, transform 0.3s ease;
+    transition: color 0.3s ease;
+}
+
+i:hover{
+    color: #e61818;
+    cursor: pointer;
+    /* transform: scale(1.3); */
+    transition: color 0.3s ease;
 }
 
 .heading {
