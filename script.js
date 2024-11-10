@@ -1,6 +1,6 @@
 var tl = gsap.timeline({scrollTrigger:{
     trigger: '#main',
-    start: '25% 30%',
+    start: '-4% 30%',
     end: '90% 90%',
     scrub: true,
     // markers: true
