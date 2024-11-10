@@ -1,3 +1,13 @@
+@font-face {
+    font-family: rohanFont ;
+    src: url(./assets/4.ttf);
+}
+
+@font-face {
+    font-family: rohanFont2 ;
+    src: url(./assets/2.ttf);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -10,10 +20,67 @@ html, body{
     width: 100%;
 }
  
+.slideshow{
+    width: 100%;
+    height: 4.1vh;
+    font-family: rohanFont2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    font-weight: 10;
+    color: #fff;
+    background-color: rgb(72, 71, 71);
+    z-index: 1000;
+}
+
+.navbar{
+    width: 100%;
+    height: 5.1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    background-color: rgb(26, 26, 26);
+    /* filter: blur(1px); */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
+    backdrop-filter: blur(10px);
+}
+
+nav a{
+    text-decoration: none;
+    font-family: rohanFont; 
+    color: white;
+    font-size: 0.8vw;
+    font-weight: 100;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #b9b6b6;
+    transform: scale(1.1); 
+    transition: color 0.3s ease;
+}
+
+i{
+    color: #fff;
+    font-size: 1vw;
+    transition: color 0.3s ease;
+}
+
+i:hover{
+    color: #e61818;
+    cursor: pointer;
+    transform: scale(1.3);
+    transition: color 0.3s ease, transform 0.3s ease;
+}
 
 .heading {
     width: 100%;
-    height: 20vh;
+    height: 13vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -45,14 +112,15 @@ p{
 }
 
 .resume{
-    width: 41.2%;
-    height: 105vh;
+    width: 61.2%;
+    height: 126vh;
+    margin-bottom: 10vh;
     /* background-color: #fff; */
 }
 
 .img{
     width: 100%;
-    height: 35vh;
+    height: 52vh;
 }
 
 #imgTwo{
@@ -71,7 +139,7 @@ p{
 
 .text{
     width: 100%;
-    height: 100vh;
+    height: 100.5vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -79,7 +147,7 @@ p{
 }
 
 .text h1{
-    color: #fff;
+    color: #161617;
     font-family: 'Times New Roman', Times, serif;
     font-size: 4vw;
     font-weight: 300;

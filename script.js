@@ -1,7 +1,7 @@
 var tl = gsap.timeline({scrollTrigger:{
     trigger: '#main',
-    start: '30% 30%',
-    end: '70% 80%',
+    start: '25% 30%',
+    end: '90% 90%',
     scrub: true,
     // markers: true
 }})
@@ -11,12 +11,17 @@ tl.to("#imgTwo", {
 }).to('#imgThree', {
     rotateX : "0deg"
 }).to('.resume', {
-    marginTop : "50vh",
-    scale: "0.8",
+    marginTop : "100vh",
+    scale: "0.5",
 }, "id").to('.img', {
     filter: 'grayscale(1)',
 }, "id").to('.text', {
-    marginTop : "-100vh"
-}, "id").to('.overlay', {
-    opacity: 0.5
+    marginTop : "-115vh"
 }, "id")
+
+let count = 0;
+
+function incrementCount () {
+    count ++;
+    document.querySelector('button').textContent = "Count:" + count;
+}
