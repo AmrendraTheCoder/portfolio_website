@@ -27,11 +27,12 @@ html, body{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2vw;
     font-weight: 10;
     color: #fff;
     background-color: rgb(72, 71, 71);
     z-index: 1000;
+    font-size: 0.84vw;
+    backdrop-filter: blur(10px);
 }
 
 .navbar{
@@ -63,6 +64,12 @@ nav a{
     color: #b9b6b6;
     transform: scale(1.1); 
     transition: color 0.3s ease;
+}
+
+.navbar-scrolled {
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
 }
 
 i{

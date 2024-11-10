@@ -25,3 +25,13 @@ function incrementCount () {
     count ++;
     document.querySelector('button').textContent = "Count:" + count;
 }
+
+// JavaScript to toggle blur on scroll
+window.addEventListener("scroll", function() {
+    const navbar = document.querySelector(".navbar");
+    if (window.scrollY > 50) {  // Adjust scroll distance if needed
+        navbar.classList.add("navbar-scrolled");
+    } else {
+        navbar.classList.remove("navbar-scrolled");
+    }
+});
