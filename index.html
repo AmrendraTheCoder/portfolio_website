@@ -1,83 +1,127 @@
 <!DOCTYPE html>
-<html lang="en"> 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Envelope</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-        </style>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-    </style>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.css">
+
     <link
-    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
-    rel="stylesheet"/>
-    <link rel="icon" href="assets/Vector.svg" type="image/svg+xml">
-</head>
-<body>
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+    </style>
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+    </style>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <link rel="icon" href="assets/Vector.svg" type="image/svg+xml" />
+  </head>
+  <body>
     <!-- <div class="heading">Showcase your Portfolio</div> -->
+
     <div class="slideshow">
-        Crafting a Future where resumes are more than pape — dynamic, digital, and designed to inspire.
+        Crafting a Future where resumes are more than pape — dynamic, digital, and
+        designed to inspire.
     </div>
-    
-        <nav class="navbar">
-            <i class="ri-mail-open-line" id="logo"></i>
-            <a href="">Home</a>
-            <a href="">About</a>
-            <a href="">Projects</a>
-            <a href="">Testimonials</a>
-            <a href="">Achievements</a>
-            <a href="">Blog</a>
-            <a href="">Insights</a>
-            <a href="">Contacts</a>
-            <i class="ri-search-line" id="search"></i>
-        </nav>
-        
-        <div class="informationshow">
-            <h1 class="title">
-                Discover, Compare, Decide. <br>
-                With ENVELOPE by your side.
-            </h1>
-            <p>
-                ENVELOPE is your trusted review platform, helping you make informed decisions faster and smarter.
-            </p>
-            <div class="twoin1">
-                <button class="button1">Explore Our Top Reviews</button>
-                <a href="" class="button2">Talk to our review experts
-                    <i id='newOne' class="ri-arrow-right-line"></i>
-                </a>   
-            </div>
-            <div class="character">
-            </div>
+
+    <nav class="navbar">
+        <i class="ri-mail-open-line" id="logo"></i>
+        <a href="">Home</a>
+        <a href="">About</a>
+        <a href="">Projects</a>
+        <a href="">Testimonials</a>
+        <a href="">Achievements</a>
+        <a href="">Blog</a>
+        <a href="">Insights</a>
+        <a href="">Contacts</a>
+        <a href="">Connect Your wallet</a>
+        <a href="">Sign In</a>
+        <i class="ri-search-line" id="search"></i>
+    </nav>
+
+    <div class="main">
+
+        <div class="page">
+                    
+         <div class="header">
+            <h3>ENVELOPE</h3>
+            <button>Notify Me</button>
         </div>
-        <div id="main">
-            
-            <!-- <button onclick="incrementCount()">Count: 0</button> -->
 
-            <div class="resume">
-                <div id='imgOne' class="img">
-                    <img src="./assets/thomas1.jpg" alt="" srcset="">
+          
+              <div class="informationshow">
+                <h1 class="title">
+                  Discover, Compare, Decide. <br />
+                  With ENVELOPE by your side.
+                </h1>
+                <p>
+                  ENVELOPE is your trusted review platform, helping you make informed
+                  decisions faster and smarter.
+                </p>
+                <div class="twoin1">
+                  <button class="button1">Explore Our Top Reviews</button>
+                  <a href="" class="button2"
+                    >Talk to our review experts
+                    <i id="newOne" class="ri-arrow-right-line"></i>
+                  </a>
                 </div>
-                <div id='imgTwo' class="img">
-                    <img src="./assets/thomas2.jpg" alt="" srcset="">
+                <div class="character"></div>
+              </div>
+          
+                <div id="mainfordemo">
+                <!-- <button onclick="incrementCount()">Count: 0</button> -->
+          
+                <div class="resume">
+                  <div id="imgOne" class="img">
+                    <img src="./assets/thomas1.jpg" alt="" srcset="" />
+                  </div>
+                  <div id="imgTwo" class="img">
+                    <img src="./assets/thomas2.jpg" alt="" srcset="" />
+                  </div>
+                  <div id="imgThree" class="img">
+                    <img src="./assets/thomas3.jpg" alt="" srcset="" />
+                  </div>
                 </div>
-                <div id='imgThree' class="img">
-                    <img src="./assets/thomas3.jpg" alt="" srcset="">
+          
+                <div class="text">
+                  <h1>Created by <br />Amrendra</h1>
                 </div>
-            </div>
-
-            <div class="text">
-                <h1>Created by <br>Amrendra</h1>
-            </div>
-            <!-- <div class="overlay"></div> -->
+                <!-- <div class="overlay"></div> -->
+                </div>
+        </div>
+        <div class="page2">
+            <video src="https://cdn.pixabay.com/video/2022/10/11/134428-759734802_large.mp4" autoplay loop muted></video>
+        </div>
     </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+      integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
 
     <script src="script.js"></script>
-</body>
+
+  </body>
 </html>
