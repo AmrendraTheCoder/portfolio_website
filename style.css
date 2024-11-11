@@ -272,20 +272,8 @@ i:hover{
     background-color: #111;
 }
 
-.page2{
-    width: 100vw;
-    height: 100vh;
-    background-color: #fff;
-    position: relative;
-}
-
 .page{
     position: relative;
-}
-
-.main{
-    position: relative;
-    overflow: hidden;
 }
 
 .header{
@@ -319,8 +307,44 @@ i:hover{
     transform: transform 0.3s ease;
 }
 
+.main{
+    position: relative;
+    overflow: hidden;
+    /* display: flex; */
+}
+
+.page2{
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    position: relative;
+    display: flex;
+}
+
 .page2 video{
     height: 100%;
+    display: flex;
     width: 100%;
     object-fit: cover;
+    position: relative;
+    /* z-index: -100; */
+}
+
+.page2 h1{
+    position: relative;
+    margin-top: 60vh;
+    font-size: 5vw;
+    color: #111;
+    /* background-color: #5d9af4; */
+    font-family: rohanFont3;
+    font-weight: 300;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
+
+.page2 h1 p{
+    color: #676767;
+    margin-top: -19vh;
 }
