@@ -16,7 +16,7 @@ tl.to("#imgTwo", {
 }, "id").to('.img', {
     filter: 'grayscale(1)',
 }, "id").to('.text', {
-    marginTop : "-115vh"
+    marginTop : "-100vh"
 }, "id")
 
 let count = 0;
